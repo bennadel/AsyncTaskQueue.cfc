@@ -21,7 +21,7 @@ While it can be called on its own, I had envisioned the AsyncTaskQueue.cfc
 as being extended. It has one public method that allows tasks to be added to 
 the internal queue:
 
-* addTask( callback, callbackArgumnts ) :: Void
+* addTask( callback, callbackArguments ) :: Void
 
 You provide the queue with a callback function and an optional set of arguments
 to be used when invoking the callback function. This task then gets queued and
